@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Forms</title>
+</head>
+
+<body>
+
+    <font color = "Purple"><h1>Forms in HTML</h1></font><hr><br>
+
+    <form action = "/Day_05/register.html" method = "get">
+
+        <label for = "name">Enter your name : </label>
+        <input type = "text" placeholder = "eg. Srishti Goel" id = "name" name = "Name" minlength="2" maxlength="50"><br><br>
+
+        <label for = "age">Enter your age : </label>
+        <input type = "number" placeholder = "eg. 17" id = "age" name = "Age" min = "0" max = "100" required><br><br>
+
+        <label for = "pw"> Enter your password: </label>
+        <input type = "password" name = "password" id = "pw" minlength="8" maxlength="30"><br><br>
+
+        <label for = "DOB">Enter your date of birth: </label>
+        <input type = "date" id = "DOB" name = "DOB"><br><br>
+
+        <label for = "email">Enter your email: </label>
+        <input type = "email" placeholder = "eg. company@gmail.com" id = "email" name = "email"><br><br>
+
+        <label for = "colours">Enter a colour : </label>
+        <input type = "color" id = "colours" name = "color"><br><br>
+
+        <label>Enter your gender : </label>
+        <input type = "radio" id = "male" name = "gender" value = "Male">
+        <label for = "male">Male</label> 
+        <input type = "radio" id = "female" name = "gender" value = "Female">
+        <label for = "female">Female</label> 
+        <input type = "radio" id = "others" name = "gender" value = "Others">
+        <label for = "others">Others</label> <br><br>
+
+        <label>Enter your city : </label>
+        <input type = "checkbox" id = "Delhi" name = "city" value = "Delhi">
+        <label for = "Delhi">Delhi</label> 
+        <input type = "checkbox" id = "Noida" name = "city" value = "Noida">
+        <label for = "Noida">Noida</label> 
+        <input type = "checkbox" id = "Gurgaon" name = "city" value = "Gurgaon">
+        <label for = "Gurgaon">Gurgaon</label> <br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form><br><hr>
+
+</body>
+</html>
