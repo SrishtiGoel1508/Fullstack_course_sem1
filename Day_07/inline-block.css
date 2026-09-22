@@ -1,0 +1,13 @@
+div{
+    background-color:paleturquoise;
+}
+
+.inner-box{
+    background-color: palegreen;
+    width: 200px;
+}
+
+span{
+    color:teal;
+    width: 200px;
+}
