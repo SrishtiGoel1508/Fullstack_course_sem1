@@ -8,12 +8,12 @@
 
 <body>
 
-    <font color = "Purple"><h1>Forms in HTML</h1></font><hr><br>
+    <font color = "magenta"><h1>Forms in HTML</h1></font><hr><br>
 
     <form action = "/Day_05/register.html" method = "get">
 
-        <label for = "name">Enter your name : </label>
-        <input type = "text" placeholder = "eg. Srishti Goel" id = "name" name = "Name" minlength="2" maxlength="50"><br><br>
+            <label for = "name">Enter your name : </label>
+            <input type = "text" placeholder = "eg. Srishti Goel" id = "name" name = "Name" minlength="2" maxlength="50"><br><br>
 
         <label for = "age">Enter your age : </label>
         <input type = "number" placeholder = "eg. 17" id = "age" name = "Age" min = "0" max = "100" required><br><br>
@@ -38,18 +38,26 @@
         <input type = "radio" id = "others" name = "gender" value = "Others">
         <label for = "others">Others</label> <br><br>
 
-        <label>Enter your city : </label>
-        <input type = "checkbox" id = "Delhi" name = "city" value = "Delhi">
-        <label for = "Delhi">Delhi</label> 
-        <input type = "checkbox" id = "Noida" name = "city" value = "Noida">
-        <label for = "Noida">Noida</label> 
-        <input type = "checkbox" id = "Gurgaon" name = "city" value = "Gurgaon">
-        <label for = "Gurgaon">Gurgaon</label> <br><br>
+        <label>Enter your hobbies : </label>
+        <input type = "checkbox" id = "reading" name = "hobbies" value = "Reading">
+        <label for = "reading">Reading</label> 
+        <input type = "checkbox" id = "sports" name = "hobbies" value = "Sports">
+        <label for = "sports">Sports</label> 
+        <input type = "checkbox" id = "painting" name = "hobbies" value = "Painting">
+        <label for = "painting">Painting</label> <br><br>
 
+        <label>Enter your city : </label>
+        <select id="city" name="city">
+            <option value="Delhi">Delhi</option>
+            <option value="Gurgaon">Gurgaon</option>
+            <option value="Noida">Noida</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Chennai">Chennai</option>
+        </select><br><br>
+        
         <button type="submit">Submit</button>
         <button type="reset">Reset</button>
 
     </form><br><hr>
-
 </body>
 </html>
