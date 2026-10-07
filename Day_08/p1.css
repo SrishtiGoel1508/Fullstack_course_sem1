@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+}
+#item-1{
+    background-color:palegreen;
+    height: 100px;
+    width: 200px;
+    padding: 25px; 
+    border-width: 10px;
+    border-color:darkcyan;
+    border-style: solid;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+}
+
+#item-2{
+    background-color:palevioletred;
+    height: 100px;
+    width: 200px;
+    padding: 25px;
+    border-width: 10px;
+    border-color:darkmagenta;
+    border-style: solid;
+    margin: 20px auto;
+}
