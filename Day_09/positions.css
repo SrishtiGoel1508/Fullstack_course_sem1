@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    opacity: 75px;
+}
+
+div{
+    border: 1px solid red;
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}
+
+.item-1{
+    position: relative;
+    background-color: blue;
+    left: 50px;
+    top: 50px;
+}
+
+.item-2{
+    position: absolute;
+    background-color: aquamarine;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.item-3{
+    position: fixed;
+    background-color: lightpink;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

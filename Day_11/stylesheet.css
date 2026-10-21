@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 32px;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+button{
+    padding: 6px 10px;
+    color: gold;
+    opacity: 0.75;
+    background-color: blue;
+    border-radius: 6px;
+    font-size: 20px;
+    border: 1px solid goldenrod;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+button:hover{
+    scale: 1.1;
+    opacity: 1;
+}
+
+button:active{
+    scale: 0.85;
+}
+
+nav{
+    display: flex;
+    gap: 16px;
+    position: relative;
+}
+
+.menu{
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    border: 1px solid lightcyan;
+    padding: 12px;
+    border-radius: 12px;
+    background-color:lavender;
+}
+
+nav:hover .menu{
+    display: block;
+}
+
+@media(width<700px){
+    nav{
+        display: none;
+    }
+
+    p{
+        font-size: 24px;
+    }
+
+    button{
+        font-size: 16px;
+    }
+
+}
