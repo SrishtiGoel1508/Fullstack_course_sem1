@@ -126,15 +126,15 @@
 // console.log(Math.min(2,5))
 // console.log(Math.max(2,5))
 
-let total = 0
-let answer;
-do {
-    let answer = prompt("enter your expense")
-    if (answer == "done"){
-        break;
-    }
-    else {
-        total += parseFloat(answer)
-    }
-}while (answer !== "done");
-console.log(total)
+// let total = 0
+// let answer;
+// do {
+//     let answer = prompt("enter your expense")
+//     if (answer == "done"){
+//         break;
+//     }
+//     else {
+//         total += parseFloat(answer)
+//     }
+// }while (answer !== "done");
+// console.log(total)
